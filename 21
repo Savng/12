@@ -6,10 +6,9 @@
 88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
-
+local function Century1()
 -- Instances: 269 | Scripts: 26 | Modules: 0
 local G2L = {};
-local function Century1()
 -- StarterGui.Century2
 G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
 G2L["1"]["Name"] = [[Century2]];
